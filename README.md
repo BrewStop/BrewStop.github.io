@@ -1,4 +1,5 @@
 # BrewStop.github.io
 
 
-this is the test
+This page will be up and running shortly...
+Thank you for your patience
