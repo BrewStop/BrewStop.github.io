@@ -140,6 +140,8 @@ nav.fa{
         font-size: 22px;
         cursor: pointer;
     }
+    .header{
+        min-height: 100vh;
 }
 
 
