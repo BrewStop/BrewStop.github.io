@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
+    <title>BrewStop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/js/all.min.js"></script>
+
+</head>
+<body>
+   <section class= "header">
+       <nav>
+            <a href="index.html"><img src="Images/Brew.png"></a>
+           <div class="nav-links" id="navLinks">
+               <i id="timesIcon" class="fa fa-times" onclick="hideMenu()"></i>
+               <h4>
+           <li><a href ="index.html" >HOME</a></li>
+                 <li><a href ="Product.html" >PRODUCT</a></li>
+                   <li><a href ="about.html">ABOUT US</a></li>
+                   <li><a href ="contact.html">CONTACT US</a></li>
+               </h4>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+<div class="text-box">
+    <p>
+    </p>
+</div>
+       
+ </section>
+    
+    <section class="TeamTitle">
+    <h1>The Team</h1>
+    </section>
+<section class="BGinfo">
+      <div class="content-container">
+        <div class="Teamimg">
+            <a><img src="Images/Team.png"></a>
+        </div>
+        <div class="Teamtext">
+            <p>We are a dynamic team of three individuals driven by a shared passion for the art of tea making. <a href="https://www.linkedin.com/in/dante-m-schrantz/" target="_blank">Dante Schrantz</a>, our Chief Technology Officer (CTO), portrayed on the left. Dante is currently immersed in the world of Business Administration with a specialization in Data Analytics at the esteemed Universidad de Navarra. Leading the charge as our Chief Executive Officer (CEO) and Founder is <a href="https://www.linkedin.com/in/henryfortestimmermann/" target="_blank">Henry Timmermann</a>, prominently featured in the center. Henry is pursuing a comprehensive academic journey in Economics and Data Science at the University of Chicago, bringing a wealth of knowledge and innovation to our team. Completing our trio is <a href="https://www.linkedin.com/in/ricardo-c-4830ba1b4/" target="_blank">Ricardo Cervera</a>, our Chief Financial Officer (CFO), showcased on the right. Ricardo is dedicated to the study of Economics at the prestigious London School of Economics, contributing his financial acumen to our collective vision. Together, we form a cohesive and talented group that has transformed a simple idea into a remarkable reality. Our journey is marked by dedication, innovation, and a shared commitment to revolutionize the world of tea making. As we navigate the intersection of technology, business, and creativity, we look forward to sharing the fruits of our labor with tea enthusiasts everywhere.
+    </p>
+          </div>
+    </div>
+</section>
+    
+    
+    
+        <!---- Footer---->
+<section class="footer">
+    <h4>Connect With Us</h4>
+    <div class="icons">
+        <a href="https://instagram.com/brewstop.official" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/BrewStop" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  <p>© BrewStop 2023</p>
+</section>
+<!-------Javascript for toggle menu------->
+<script>
+   var navLinks = document.getElementById("navLinks");
+var timesIcon = document.getElementById("timesIcon");
+
+function showMenu() {
+    navLinks.classList.add("active");
+    timesIcon.classList.add("active");
+}
+
+function hideMenu() {
+    navLinks.classList.remove("active");
+    timesIcon.classList.remove("active");
+}
+    </script>
+    </body>
+</html>
