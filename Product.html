@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
+    <title>BrewStop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/js/all.min.js"></script>
+
+</head>
+<body>
+   <section class= "header">
+       <nav>
+            <a href="index.html"><img src="Images/Brew.png"></a>
+           <div class="nav-links" id="navLinks">
+               <i id="timesIcon" class="fa fa-times" onclick="hideMenu()"></i>
+               <h4>
+                  <li><a href ="index.html" >HOME</a></li>
+                 <li><a href ="Product.html" >PRODUCT</a></li>
+                   <li><a href ="about.html">ABOUT US</a></li>
+                   <li><a href ="contact.html">CONTACT US</a></li>
+               </h4>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+<div class="text-box">
+    <p>
+    </p>
+</div>
+       
+ </section>
+    
+    <section class="ProductTitle">
+    <h1>Our Product</h1>
+    </section>
+<section class="BrewStop">
+      <div class="content-contain">
+        <div class="BrewText">
+            <p>Brewstop was meticulously crafted with simplicity and convenience at its core. It emerged as a solution to the ever-growing challenge faced by tea enthusiasts who prefer enjoying their favorite beverage on the move. Whether you find yourself sipping tea during your morning commute or simply seek a hassle-free method to brew your tea, Brewstop is your ideal companion. Our product boasts a revolutionary, patent-pending design that empowers you to relish your tea wherever life takes you. The process is effortless – just pop open the capsule, add your preferred tea leaves or tea bag, seal the capsule, and place it into the bottle. Within moments, you'll witness your tea brewing to perfection. Once your tea reaches the desired flavor profile, flip the bottle, and the capsule seamlessly attaches to the top. The capsule will automatically drain itself, halting the brewing process. Thanks to our innovative design, you can savor your tea without the immediate need to search for a trash can or a spot to dispose of used leaves or tea bags. The bottle ensures that the brewing process concludes, requiring no further action on your part. With Brewstop, enjoy your tea on the go with unparalleled simplicity and a touch of modern ingenuity.
+    </p>
+    </div>
+          <div class="Brewimg">
+            <a><img src="Images/BottleCapCapsule.png"></a>
+        </div>
+    </div>
+</section>
+    
+    <section class="MediaTitle">
+    <h1>Media</h1>
+    </section>
+<section class="Media">
+      <div class="content-contain">
+          <div class="Openimg">
+            <a><img src="Images/Open.png"></a>
+        </div>
+          <div class="Capsuleimg">
+            <a><img src="Images/CapsuleTea.png"></a>
+        </div>
+          <div class="CapsuleCapTeaimg">
+            <a><img src="Images/CapsuleCapTea.png"></a>
+        </div>
+    </div>
+</section>
+    
+    
+<!---- Footer---->
+<section class="footer">
+    <h4>Connect With Us</h4>
+    <div class="icons">
+        <a href="https://instagram.com/brewstop.official" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/BrewStop" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <p>© BrewStop 2023</p>
+</section>
+    <!-------Javascript for toggle menu------->
+<script>
+   var navLinks = document.getElementById("navLinks");
+var timesIcon = document.getElementById("timesIcon");
+
+function showMenu() {
+    navLinks.classList.add("active");
+    timesIcon.classList.add("active");
+}
+
+function hideMenu() {
+    navLinks.classList.remove("active");
+    timesIcon.classList.remove("active");
+}
+    </script>
+    </body>
+</html>
